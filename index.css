@@ -46,11 +46,14 @@ li {
   position: relative;
 }
 .resume {
+  display: flex;
+  align-items: center;
   justify-content: space-between;
   background-color: #f87400;
   height: 100px;
   width: 100vw;
   padding-left: 10px;
+  padding-right: 10px;
 }
 .items {
   background: #ff8d26;
