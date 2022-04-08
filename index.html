@@ -14,27 +14,45 @@
         <h1>Lista de compra</h1>
         <ul>
           <li>Principal</li>
-          <li>Lista</li>
+          <li class="lista">Lista</li>
           <li>Acerca de</li>
         </ul>
       </header>
-      <section>
-        <h3 class="resumen-compra"></h3>
+      <section class="resume">
+        <i class="fa-solid fa-circle-plus"></i>
+        <!-- <img
+          src="circle-plus-solid.svg>"
+          alt="plus simbol"
+          width="50"
+          height="50"
+        /> -->
+
+        <h3>2/3 comprados</h3>
       </section>
       <div>
         <section class="items">
-          <button></button><button></button><button></button><button></button>
-          <!-- <form action="checkbox" value="">Pan</form>
-          <form action="checkbox" value="">Azucar</form>
-          <form action="checkbox" value="">Leche</form>
-          <form action="checkbox" value="">Vino</form> -->
+          <!-- <button></button><button></button><button></button><button></button> -->
+          <form>
+            <input type="checkbox" name="item1" value="pan" />
+            <label for="item1">Pan</label><br />
+            <input type="checkbox" name="item2" value="azucar" />
+            <label for="item2">Azucar</label><br />
+            <input type="checkbox" name="item3" value="leche" />
+            <label for="item3">Leche</label><br />
+            <input type="checkbox" name="item4" value="vino" />
+            <label for="item4">Vino</label><br />
+            <!-- <form action="checkbox" value="">Pan</form>
+            <form action="checkbox" value="">Azucar</form>
+            <form action="checkbox" value="">Leche</form>
+            <form action="checkbox" value="">Vino</form> -->
+          </form>
+          <div class="precios">
+            <p>0,75 €</p>
+            <p></p>
+            <p>1,20 €</p>
+            <p></p>
+          </div>
         </section>
-        <div class="precios">
-          <p>0,75 €</p>
-          <p></p>
-          <p>1,20 €</p>
-          <p></p>
-        </div>
       </div>
       <section class="total"></section>
     </main>
