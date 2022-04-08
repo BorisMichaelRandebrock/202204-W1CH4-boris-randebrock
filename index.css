@@ -25,6 +25,7 @@ header {
 h1 {
   background: #5d81d1;
   font-size: 1.5em;
+  padding-left: 2px;
 }
 ul {
   display: flex;
@@ -49,11 +50,14 @@ li {
   background-color: #f87400;
   height: 100px;
   width: 100vw;
+  padding-left: 10px;
 }
 .items {
   background: #ff8d26;
+  width: 100vw;
   flex-direction: row;
   justify-content: space-between;
+  padding-left: 10px;
 }
 /* main > section {
   background-color: #f87400;
