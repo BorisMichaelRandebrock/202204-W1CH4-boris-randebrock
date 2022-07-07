@@ -96,8 +96,31 @@ p {
 }
 .line {
   width: 362px;
-  border-bottom: 1px solid gainsboro;
+  border-bottom: 1px solid rgb(218, 189, 166);
 }
-/* main > section {
-  background-color: #f87400;
-} */
+a {
+  text-decoration: none;
+  color: #000;
+}
+button {
+  background: #5d81d1;
+  border: none;
+  padding: 10px;
+  color: #fff;
+  font-weight: 200;
+  font-size: 1em;
+  margin-top: 20px;
+}
+.edit-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-left: 10px;
+  height: 140px;
+  width: 100%;
+  align-content: flex-start;
+}
+.input-text {
+  margin-bottom: 5px;
+}

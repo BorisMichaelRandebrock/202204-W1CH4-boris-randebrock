@@ -8,5 +8,31 @@
     <link rel="icon" type="image/x-icon" href="shopping-icon.png" />
     <title>Shopping-List</title>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <header>
+        <h1>Lista de compra</h1>
+        <ul>
+          <a href="/index.html"><li>Principal</li> </a>
+          <li class="lista">Lista</li>
+          <li>Acerca de</li>
+        </ul>
+      </header>
+      <section class="resume">
+        <img src="circle-plus-solid.svg" alt="el simbolo plus" width="25px" />
+        <h3>2/3 comprados</h3>
+      </section>
+      <section class="edit-items">
+        <h3>Editar artículo</h3>
+        <form>
+          <label for="type">Nombre:</label> <br />
+          <input type="text" name="type" class="input-text" /> <br />
+          <label for="price">Precio:</label> <br />
+          <input type="text" name="price" /> <br />
+          <button>Modificar</button>
+        </form>
+      </section>
+      <section class="total"></section>
+    </main>
+  </body>
 </html>
