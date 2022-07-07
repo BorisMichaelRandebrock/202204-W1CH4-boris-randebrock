@@ -67,7 +67,7 @@ li {
   flex-direction: row;
   justify-content: space-between;
   padding-left: 10px;
-  height: 120px;
+  height: 105px;
 }
 section.items {
   display: flex;
@@ -80,6 +80,7 @@ form {
 }
 span {
   font-weight: bold;
+  padding-left: 10px;
 }
 .precios {
   display: flex;
@@ -87,11 +88,15 @@ span {
   justify-content: flex-start;
   align-items: flex-end;
   padding-right: 15px;
-  margin-top: 21px;
+  margin-top: 25px;
 }
 p {
   height: 16px;
   margin: 0%;
+}
+.line {
+  width: 362px;
+  border-bottom: 1px solid gainsboro;
 }
 /* main > section {
   background-color: #f87400;
