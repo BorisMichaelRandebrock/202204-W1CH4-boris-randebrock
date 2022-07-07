@@ -21,10 +21,14 @@ header {
   margin: 0%;
   height: 70px;
   padding: 15px 10px 15px 10px;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
 }
 h1 {
   background: #5d81d1;
-  font-size: 1.5em;
+  font-size: 1.3em;
+  font-weight: 500;
   padding-left: 2px;
 }
 ul {
@@ -35,15 +39,17 @@ ul {
 li {
   font-size: 0.8em;
   list-style: none;
-  /* justify-content: space-around; */
   margin: 0%;
   border-collapse: collapse;
   width: 55px;
   margin-bottom: 0%;
-  /* width: 100vw; */
 }
 .lista {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
 }
 .resume {
   display: flex;
@@ -61,6 +67,31 @@ li {
   flex-direction: row;
   justify-content: space-between;
   padding-left: 10px;
+  height: 120px;
+}
+section.items {
+  display: flex;
+}
+h3 {
+  font-weight: 200;
+}
+form {
+  margin-top: 20px;
+}
+span {
+  font-weight: bold;
+}
+.precios {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-right: 15px;
+  margin-top: 21px;
+}
+p {
+  height: 16px;
+  margin: 0%;
 }
 /* main > section {
   background-color: #f87400;
