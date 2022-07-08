@@ -147,6 +147,7 @@ button {
 }
 p.euro {
   position: relative;
+  left: 10px;
 }
 .items__li {
   display: flex;
