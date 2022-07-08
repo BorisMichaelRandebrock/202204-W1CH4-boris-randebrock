@@ -12,10 +12,10 @@
     <main>
       <header>
         <h1>Lista de compra</h1>
-        <ul>
-          <a href="/item-add.html"> <li>Principal</li> </a>
-          <li class="lista">Lista</li>
-          <li>Acerca de</li>
+        <ul class="header-ul">
+          <a href="item-add.html" class="header-li"><li>Principal</li> </a>
+          <li class="lista header-li">Lista</li>
+          <li class="header-li">Acerca de</li>
         </ul>
       </header>
       <section class="resume">
@@ -24,24 +24,46 @@
       </section>
       <section class="items">
         <form>
-          <input type="checkbox" name="item1" value="pan" />
-          <label for="item1">Pan</label><br />
-          <input type="checkbox" name="item2" value="azucar" />
-          <label for="item2">Azucar</label><br />
-          <input type="checkbox" name="item3" value="leche" />
-          <label for="item3">Leche</label><br />
-          <input type="checkbox" name="item4" value="vino" />
-          <label for="item4">Vino</label><br />
+          <ul class="shopping-list-items">
+            <li class="items__li">
+              <span class="shopping-items">
+                <input type="checkbox" name="item1" value="pan" class="space" />
+                <label for="item1"> Pan</label><br />
+              </span>
+              <p>0,75 € <span>x</span></p>
+            </li>
+            <li class="items__li">
+              <span class="shopping-items">
+                <input
+                  type="checkbox"
+                  name="item2"
+                  value="azucar"
+                  class="space"
+                />
+                <label for="item2"> Azucar</label><br />
+              </span>
+              <p><span>x</span></p>
+            </li>
+            <li class="items__li">
+              <span class="shopping-items">
+                <input
+                  type="checkbox"
+                  name="item3"
+                  value="leche"
+                  class="space"
+                />
+                <label for="item3"> Leche</label><br />
+              </span>
+              <p>1,20 €<span>x</span></p>
+            </li>
+          </ul>
         </form>
-        <div class="precios">
-          <p>0,75 € <span>X</span></p>
-          <p><span>X</span></p>
-          <p>1,20 €<span>X</span></p>
-          <p></p>
-        </div>
+        <div class="precios"></div>
       </section>
       <div class="line"></div>
-      <section class="total"></section>
+      <section class="total">
+        <p class="totalling">1.95 €</p>
+      </section>
     </main>
   </body>
 </html>
